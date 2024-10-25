@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../script.js" type="module" defer></script>
+    <title>Contact Us - TravelBloom</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/travel-svgrepo-com.svg"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="navbar_logo">
+        <img
+          src="../assets/travel-svgrepo-com.svg"
+          alt="TravelBloom Logo"
+          class="logo-img"
+        />
+        <h1>TravelBloom</h1>
+      </div>
+      <div class="navbar_links">
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html" class="active">Contact Us</a>
+      </div>
+    </nav>
+
+    <div class="social-sidebar">
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <section id="contact" class="contact">
+      <div class="section_container">
+        <div>
+          <h2 class="section_title">Contact Us</h2>
+          <span>Get in touch</span>
+        </div>
+        <form action="" class="contact-form">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+          <label for="message">Message</label>
+          <textarea
+            class="form_message"
+            name="message"
+            id="message"
+            placeholder="Enter your message here..."
+          ></textarea>
+          <input class="form_submit" type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

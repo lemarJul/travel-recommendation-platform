@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../script.js" type="module" defer></script>
+    <title>Home - TravelBloom</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/travel-svgrepo-com.svg"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="navbar_logo">
+        <img
+          src="../assets/travel-svgrepo-com.svg"
+          alt="TravelBloom Logo"
+          class="logo-img"
+        />
+        <h1>TravelBloom</h1>
+      </div>
+      <div class="navbar_links">
+        <a href="home.html" class="active">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div class="search-container">
+        <input
+          type="text"
+          placeholder="Enter a destination or keyword"
+          id="searchInput"
+        />
+        <button class="search-btn">Search</button>
+        <button class="clear-btn">Clear</button>
+      </div>
+    </nav>
+
+    <div class="social-sidebar">
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <section id="hero" class="hero">
+      <div class="section_container hero_container">
+        <h2 class="section_title">
+          <span>EXPLORE</span>
+          <span>DREAM</span>
+          <span>DESTINATION</span>
+        </h2>
+        <p class="section_description home_description">
+          It encourages exploration of unfamiliar territories, embracing diverse
+          cultures and landscapes, while pursuing the desired destination that
+          captivates the heart and ignites a sense of wonder.
+        </p>
+        <button class="book-now">BOOK NOW</button>
+      </div>
+
+      <div id="searchMessage" class="search-message">
+        Please enter a valid search query.
+      </div>
+    </section>
+  </body>
+</html>
